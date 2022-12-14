@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify</title>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Verify Your Account</h1>
+            <br>
+            <p>We mailed you six-digit code to your registered mail id. Please Enter
+                the code to verify your OTP.
+            </p>
+            <div class="otp-div">
+                <input id="a" type="text"   maxlength="1" class="otp" onkeyup="moveToNext(this,'b')" >
+                <input id="b" type="text"   maxlength="1" class="otp" onkeyup="moveToNext(this,'c')">
+                <input id="c" type="text"   maxlength="1" class="otp"onkeyup="moveToNext(this,'d')">
+                <input id="d" type="text"   maxlength="1" class="otp"onkeyup="moveToNext(this,'e')">
+                <input id="e" type="text"   maxlength="1" class="otp"onkeyup="moveToNext(this,'f')">
+                <input id="f" type="text"   maxlength="1" class="otp">
+
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
